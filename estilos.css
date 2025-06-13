@@ -1,0 +1,124 @@
+/* Estilos CSS generales para todo el sitio */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Fondo oscuro */
+    color: #eee; /* Texto claro */
+}
+
+header {
+    background-color: #000; /* Negro puro para el encabezado */
+    color: #99ff99; /* Verde claro para el título */
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #222; /* Un gris muy oscuro para la navegación */
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+nav a {
+    color: #99ff99; /* Verde claro para los enlaces de navegación */
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #fff; /* Blanco al pasar el mouse */
+}
+
+/* Estilo para el logo en el header */
+.logo-header {
+    max-width: 250px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    display: block; /* Para que la imagen se centre correctamente */
+    margin: 0 auto 10px auto; /* Centra la imagen y le da un margen inferior */
+}
+
+/* Estilo para imagenes en content */
+.img-content {
+    max-width: 500px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    display: block; /* Para que la imagen se centre correctamente */
+    margin: 0 auto 10px auto; /* Centra la imagen y le da un margen inferior */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+    text-align: center; /* Generalmente centrado para el contenido principal */
+}
+
+/* Estilos específicos para la página de Inicio */
+
+.pulsera-card {
+    background-color: #555; /* Gris oscuro para las tarjetas de pulseras */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    width: 200px;
+    text-align: center;
+    color: #eee; /* Texto claro en las tarjetas */
+}
+
+.pulsera-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.pulsera-card h3 {
+    color: #99ff99; /* Verde claro para los títulos de las pulseras */
+}
+
+.button-link {
+    display: inline-block;
+    background-color: #99ff99; /* Verde claro para el botón */
+    color: #000; /* Texto negro en el botón */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.button-link:hover {
+    background-color: #66cc66; /* Un verde un poco más oscuro al pasar el mouse */
+}
+
+/* Estilos específicos para Nosotros */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.about-content p {
+    font-size: medium;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    max-width: 700px; /* Limita el ancho del texto */
+    text-align: justify;
+    color: #ccc; /* Gris más claro para el párrafo */
+}
+
+
+/* Footer general para todas las páginas */
+footer {
+    background-color: #000; /* Negro puro para el footer */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
