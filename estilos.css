@@ -57,6 +57,13 @@ nav a:hover {
 
 /* Estilos específicos para la página de Inicio */
 
+.highlight-pulseras {
+    display: flex; /* Habilita Flexbox */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre las tarjetas de pulseras */
+    flex-wrap: wrap; /* Permite que las tarjetas salten a la siguiente línea si no hay espacio */
+}
+
 .pulsera-card {
     background-color: #555; /* Gris oscuro para las tarjetas de pulseras */
     padding: 15px;
